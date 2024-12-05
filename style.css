@@ -1,0 +1,355 @@
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+/* style.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  header .logo h1 {
+    font-size: 2em;
+    margin-left: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 20px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6347; /* Tomato color for hover effect */
+  }
+  
+  /* Main Content */
+  main {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  main h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  main p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  /* Form */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+    font-size: 1.1em;
+    margin: 10px 0 5px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"] {
+    font-size: 1em;
+  }
+  
+  form textarea {
+    height: 150px;
+    font-size: 1em;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  form button:hover {
+    background-color: #ff6347;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+  /* style.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+  }
+  
+  header nav ul li a:hover {
+    background-color: #ff6347; /* Tomato color for hover effect */
+    border-radius: 5px;
+  }
+  
+  /* Main Content */
+  main {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  main h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  main p {
+    font-size: 1.3em;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  /* Footer (Optional, if you need it) */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+/* style.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+  }
+  
+  header nav ul li a:hover {
+    background-color: #ff6347; /* Tomato color for hover effect */
+    border-radius: 5px;
+  }
+  
+  /* Main Content */
+  main {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  main h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  main p {
+    font-size: 1.3em;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  /* Service List */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 1.5em;
+    color: #444;
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #ff6347;
+  }
+  
+  /* Footer (Optional) */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+    
+    
